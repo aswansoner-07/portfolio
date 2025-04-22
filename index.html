@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicon@2.15.1/devicon.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+  
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans mt-20">
+
+  <!-- Header -->
+<!-- Header -->
+<header class="bg-gray-800 text-white fixed top-0 left-0 w-full z-50 shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <!-- Logo/Name -->
+        <div class="flex-shrink-0 text-2xl font-bold text-orange-500">Aswan Soner</div>
+  
+        <!-- Mobile menu button -->
+        <div class="lg:hidden">
+          <button id="mobile-menu-button" class="text-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <i class="fas fa-bars text-2xl"></i>
+          </button>
+        </div>
+  
+        <!-- Nav links -->
+        <nav class="hidden lg:flex space-x-6">
+          <a href="#about" class="hover:bg-blue-600 px-3 py-2 rounded-md font-semibold transition">About</a>
+          <a href="#projects" class="hover:bg-blue-600 px-3 py-2 rounded-md font-semibold transition">Projects</a>
+          <a href="#skills" class="hover:bg-blue-600 px-3 py-2 rounded-md font-semibold transition">Skills</a>
+          <a href="#experience" class="hover:bg-blue-600 px-3 py-2 rounded-md font-semibold transition">Experience</a>
+          <a href="#contact" class="hover:bg-blue-600 px-3 py-2 rounded-md font-semibold transition">Contact</a>
+        </nav>
+      </div>
+    </div>
+  
+    <!-- Mobile Menu (hidden by default) -->
+    <div id="mobile-menu" class="lg:hidden hidden px-4 pt-2 pb-4 space-y-2 bg-gray-700">
+      <a href="#about" id="menu-link1" class="block text-white hover:bg-blue-600 px-3 py-2 rounded-md">About</a>
+      <a href="#projects" id="menu-link2" class="block text-white hover:bg-blue-600 px-3 py-2 rounded-md">Projects</a>
+      <a href="#skills" id="menu-link3" class="block text-white hover:bg-blue-600 px-3 py-2 rounded-md">Skills</a>
+      <a href="#experience" id="menu-link4" class="block text-white hover:bg-blue-600 px-3 py-2 rounded-md">Experience</a>
+      <a href="#contact" id="menu-link5" class="block text-white hover:bg-blue-600 px-3 py-2 rounded-md">Contact</a>
+    </div>
+  </header>
+  
+  <!-- About Section -->
+  <section id="about" class="pt-20 pb-8 px-4">
+    <div class="max-w-6xl mx-auto text-center">
+      <h1 class="text-4xl sm:text-5xl font-bold text-blue-600 mb-4">Hi, I’m  <span class="text-orange-500"> Aswan Soner</span></h1>
+      <p class="text-xl mb-4 font-bold">Associate Software Engineer</p>
+      <p class="text-lg mb-6">I’m passionate about creating interactive web experiences, specializing in front-end development with a strong foundation in back-end technologies. I focus on building dynamic, user-friendly interfaces and full-stack applications. Constantly learning and adapting, I stay updated with the latest trends. My goal is to deliver high-quality, innovative solutions in this ever-evolving field.</p>
+      <a href="./Aswan Soner Resume.pdf" download class="inline-block bg-green-600 text-white px-6 py-3 mt-4 rounded-md font-semibold hover:bg-green-700 transition">Download Resume</a>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+<!-- Projects Section -->
+<section id="projects" class="pt-20 pb-2  px-4 bg-gray-100">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-4xl font-bold mb-12">Projects</h2>
+  
+      <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-8">
+  
+        <!-- TV-Mart (Tech Valley Mart) -->
+        <div class="bg-white rounded-xl shadow-md hover:shadow-xl p-6 transform transition hover:-translate-y-2" data-aos="fade-up">
+          <div class="flex items-center justify-between mb-3">
+            <h3 class="text-xl font-bold text-blue-700">TV-Mart (Tech Valley Mart)</h3>
+            <i class="fas fa-store text-green-600 text-xl"></i>
+          </div>
+          <p class="text-gray-600 mb-4">Multi-vendor e-commerce platform supporting product/service management, seller onboarding, and direct buyer-seller interaction using MERN Stack.</p>
+          <!-- <a href="#" class="text-blue-600 font-bold hover:underline">View Project</a> -->
+        </div>
+  
+        <!-- Indore Tech Valley IT Website -->
+        <div class="bg-white rounded-xl shadow-md hover:shadow-xl p-6 transform transition hover:-translate-y-2" data-aos="fade-up" data-aos-delay="100">
+          <div class="flex items-center justify-between mb-3">
+            <h3 class="text-xl font-bold text-blue-700">Indore Tech Valley</h3>
+            <i class="fas fa-laptop-code text-blue-500 text-xl"></i>
+          </div>
+          <p class="text-gray-600 mb-4">Designed and developed an IT services website showcasing coworking solutions, digital services, and case studies with responsive design and animations.</p>
+          <!-- <a href="#" class="text-blue-600 font-bold hover:underline">View Project</a> -->
+        </div>
+  
+        <!-- Avanta Agro Input -->
+        <div class="bg-white rounded-xl shadow-md hover:shadow-xl p-6 transform transition hover:-translate-y-2" data-aos="fade-up" data-aos-delay="200">
+          <div class="flex items-center justify-between mb-3">
+            <h3 class="text-xl font-bold text-blue-700">Avanta Agro Input</h3>
+            <i class="fas fa-seedling text-green-500 text-xl"></i>
+          </div>
+          <p class="text-gray-600 mb-4">Created a responsive website for agricultural product display, dealer network info, and brand showcasing using modern frontend technologies.</p>
+          <!-- <a href="#" class="text-blue-600 font-bold hover:underline">View Project</a> -->
+        </div>
+  
+        <!-- Kumbhadvertise -->
+        <div class="bg-white rounded-xl shadow-md hover:shadow-xl p-6 transform transition hover:-translate-y-2" data-aos="fade-up" data-aos-delay="300">
+          <div class="flex items-center justify-between mb-3">
+            <h3 class="text-xl font-bold text-blue-700">Kumbhadvertise</h3>
+            <i class="fas fa-bullhorn text-pink-500 text-xl"></i>
+          </div>
+          <p class="text-gray-600 mb-4">Developed a digital ad booking platform for Kumbh Mela with map integration, lead management, and vendor interface using React and Node.js.</p>
+          <!-- <a href="#" class="text-blue-600 font-bold hover:underline">View Project</a> -->
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <!-- Skills Section -->
+  <section id="skills" class="pt-20 pb-2  px-4 bg-gray-100">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-4xl font-bold  mb-12">Skills & Technologies</h2>
+  
+      <ul class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 text-center text-blue-700">
+        
+        <!-- Skill -->
+        <li class="bg-white p-6 rounded-xl shadow-md text-lg font-semibold flex flex-col items-center gap-2">
+          <i class="devicon-html5-plain colored text-4xl"></i>
+          HTML5
+        </li>
+  
+        <li class="bg-white p-6 rounded-xl shadow-md text-lg font-semibold flex flex-col items-center gap-2">
+          <i class="devicon-css3-plain colored text-4xl"></i>
+          CSS3
+        </li>
+  
+        <li class="bg-white p-6 rounded-xl shadow-md text-lg font-semibold flex flex-col items-center gap-2">
+          <i class="devicon-javascript-plain colored text-4xl"></i>
+          JavaScript
+        </li>
+  
+        <li class="bg-white p-6 rounded-xl shadow-md text-lg font-semibold flex flex-col items-center gap-2">
+          <i class="devicon-react-original colored text-4xl"></i>
+          React.js
+        </li>
+  
+        <li class="bg-white p-6 rounded-xl shadow-md text-lg font-semibold flex flex-col items-center gap-2">
+          <i class="devicon-nodejs-plain colored text-4xl"></i>
+          Node.js
+        </li>
+  
+        <li class="bg-white p-6 rounded-xl shadow-md text-lg font-semibold flex flex-col items-center gap-2">
+          <i class="devicon-express-original colored text-4xl"></i>
+          Express.js
+        </li>
+  
+        <li class="bg-white p-6 rounded-xl shadow-md text-lg font-semibold flex flex-col items-center gap-2">
+          <i class="devicon-mongodb-plain colored text-4xl"></i>
+          MongoDB
+        </li>
+  
+        <li class="bg-white p-6 rounded-xl shadow-md text-lg font-semibold flex flex-col items-center gap-2">
+          <i class="devicon-tailwindcss-plain colored text-4xl"></i>
+          Tailwind CSS
+        </li>
+  
+        <li class="bg-white p-6 rounded-xl shadow-md text-lg font-semibold flex flex-col items-center gap-2">
+          <i class="devicon-redux-original colored text-4xl"></i>
+          Redux Toolkit
+        </li>
+  
+        <li class="bg-white p-6 rounded-xl shadow-md text-lg font-semibold flex flex-col items-center gap-2">
+          <i class="devicon-git-plain colored text-4xl"></i>
+          Git & GitHub
+        </li>
+  
+        <li class="bg-white p-6 rounded-xl shadow-md text-lg font-semibold flex flex-col items-center gap-2">
+          <i class="devicon-nextjs-original-wordmark colored text-4xl"></i>
+          Next.js
+        </li>
+  
+        <li class="bg-white p-6 rounded-xl shadow-md text-lg font-semibold flex flex-col items-center gap-2">
+          <i class="fas fa-terminal text-gray-700 text-3xl"></i>
+          REST APIs
+        </li>
+  
+      </ul>
+    </div>
+  </section>
+  
+
+  <!-- Experience Section -->
+  <section id="experience" class="pt-20 pb-2 px-4 bg-gray-100">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-4xl font-bold   mb-12">Experience</h2>
+  
+      <div class="space-y-10">
+
+        <div class="bg-white p-6 rounded-xl shadow-md border-l-4 border-blue-600">
+            <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center">
+              <div>
+                <h3 class="text-xl font-bold text-blue-700">Associate Software Engineer</h3>
+                <p class="text-gray-600">Indore Tech Valley, Indore</p>
+              </div>
+              <span class="text-sm text-gray-500 mt-2 sm:mt-0">
+                <i class="far fa-calendar-alt mr-1"></i> Jan 2024 – Present
+              </span>
+            </div>
+            <ul class="list-disc pl-5 mt-4 text-gray-700 space-y-1">
+              <li>Worked on full-stack web applications using MERN Stack (MongoDB, Express.js, React.js, Node.js).</li>
+              <li>Built and maintained scalable admin panels, dashboards, and user interfaces using Tailwind CSS and Redux Toolkit.</li>
+              <li>Developed and launched <strong>TV-Mart</strong> – a dynamic multi-vendor e-commerce platform designed to facilitate seamless product and service management, seller onboarding, and direct buyer-seller interaction.</li>
+              <li>Created a digital presence for <strong>Indore Tech Valley Coworking</strong>, featuring space booking, enquiry management, and lead generation modules.</li>
+              <li>Led frontend and backend development for an <strong>IT Solutions Project</strong> to showcase service offerings, client success stories, and inquiry forms.</li>
+              <li>Implemented authentication, role-based access control, responsive design, animations, and PDF reporting in multiple projects.</li>
+              <li>Contributed to technical documentation, code reviews, and performance optimization practices.</li>
+            </ul>
+          </div>
+          
+        
+        <!-- Experience Card -->
+        <div class="bg-white p-6 rounded-xl shadow-md border-l-4 border-blue-600">
+            <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center">
+              <div>
+                <h3 class="text-xl font-bold text-blue-700">MERN Stack Intern</h3>
+                <p class="text-gray-600">Kumbhadvertise, Indore</p>
+              </div>
+              <span class="text-sm text-gray-500 mt-2 sm:mt-0">
+                <i class="far fa-calendar-alt mr-1"></i> Oct 2023 – Jan 2024
+              </span>
+            </div>
+            <ul class="list-disc pl-5 mt-4 text-gray-700 space-y-1">
+              <li>Worked on a multi-vendor e-commerce platform using the MERN Stack.</li>
+              <li>Built responsive admin and vendor dashboards using Tailwind CSS, Redux Toolkit, and AOS animations.</li>
+              <li>Integrated dynamic APIs, implemented interactive components like stepper UIs, modals, charts, and PDF reports.</li>
+              <li>Documented the entire project using Docusaurus to streamline onboarding and future development.</li>
+              <li>Developed the <strong>KumbhAdvertise</strong> project – a digital platform for Kumbh Mela advertisement bookings with map integration and lead management.</li>
+              <li>Built a responsive website for <strong>Avanta Agro Input</strong> to showcase their agricultural products and dealer network.</li>
+              <li>Designed and developed a sleek, responsive portfolio website for an <strong>IT service-based company</strong> to promote their digital offerings and case studies.</li>
+            </ul>
+          </div>
+          
+  
+        <!-- Add another job -->
+        <div class="bg-white p-6 rounded-xl shadow-md border-l-4 border-blue-600">
+          <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center">
+            <div>
+              <h3 class="text-xl font-bold text-blue-700">MERN Stack Trainer</h3>
+              <p class="text-gray-600">Insta Dot Analytics</p>
+            </div>
+            <span class="text-sm text-gray-500 mt-2 sm:mt-0"><i class="far fa-calendar-alt mr-1"></i> July 2023 – Sept 2023</span>
+          </div>
+          <ul class="list-disc pl-5 mt-4 text-gray-700 space-y-1">
+            <li>Conducted hands-on training sessions on MongoDB, Express, React, and Node.js.</li>
+            <li>Guided students on building full-stack applications from scratch.</li>
+            <li>Emphasized real-world project building and Git/GitHub collaboration.</li>
+          </ul>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="pt-20 pb-8 px-4">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-4xl font-bold mb-8">Contact Me</h2>
+      <ul class="flex justify-center flex-wrap gap-6">
+        <li>
+          <a href="https://github.com/aswansoner-07" class="flex items-center text-blue-600 text-xl hover:text-blue-800 transform hover:scale-110 transition">
+            <i class="fab fa-github mr-2 text-2xl"></i> GitHub
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/aswan-soner-98a8b7354?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="flex items-center text-blue-600 text-xl hover:text-blue-800 transform hover:scale-110 transition">
+            <i class="fab fa-linkedin mr-2 text-2xl"></i> LinkedIn
+          </a>
+        </li>
+        <li>
+          <a href="mailto:aswansoner@gmail.com" class="flex items-center text-blue-600 text-xl hover:text-blue-800 transform hover:scale-110 transition">
+            <i class="fas fa-envelope mr-2 text-2xl"></i> Email
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center py-6">
+    <p>&copy; 2025 Aswan soner. All rights reserved.</p>
+  </footer>
+  
+  <script>
+    const mobileMenuBtn = document.getElementById('mobile-menu-button');
+    const mobileMenuLink1 = document.getElementById('menu-link1');
+    const mobileMenuLink2 = document.getElementById('menu-link2');
+    const mobileMenuLink3 = document.getElementById('menu-link3');
+    const mobileMenuLink4 = document.getElementById('menu-link4');
+    const mobileMenuLink5 = document.getElementById('menu-link5');
+    const mobileMenu = document.getElementById('mobile-menu');
+  
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    mobileMenuLink1.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    mobileMenuLink2.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+    mobileMenuLink3.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+    mobileMenuLink4.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+    mobileMenuLink5.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => AOS.init({ once: true }));
+  </script>
+  
+
+</body>
+</html>
